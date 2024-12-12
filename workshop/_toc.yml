@@ -7,6 +7,7 @@ parts:
   - caption: Introductie openEHR
     chapters:
       - file: openehr
+      - file: opdracht
       - file: archetypes
       - file: templates
   - caption: openEHR server

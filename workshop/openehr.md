@@ -2,9 +2,20 @@
 
 ## Wat is openEHR?
 
-## Waarom openEHR?
+openEHR is een open standaard die ontworpen is om de interoperabiliteit van elektronische patiëntendossiers (EPD's) te 
+verbeteren. Het biedt een raamwerk voor het modelleren, opslaan en delen van gezondheidsgegevens op een flexibele manier. 
+Een openEHR CDR (Clinical Data Repository) is een opslagomgeving die is ontworpen volgens de openEHR-standaard. De kern 
+van openEHR is een tweelaags architectuur: een referentiemodel voor de technische structuur van gegevens en archetypen 
+voor de klinische inhoud. Dit stelt zorgprofessionals in staat om domeinspecifieke kennis vast te leggen zonder 
+afhankelijk te zijn van specifieke software. Dankzij deze aanpak wordt het eenvoudiger om gegevens uit verschillende 
+systemen te integreren, uit te wisselen, en langdurig bruikbare, patiëntgerichte informatie te waarborgen.
 
 ## Hoe werkt openEHR?
+
+In de rest van de workshop zullen we uitgebreid ingaan op hoe openEHR precies werkt en hoe we aan de slag kunnen met 
+openEHR. Het is echter ook goed om eerst een globaal overzicht te hebben. Hiervoor zijn een aantal concepten belangrijk.
+Allereerst de archetypes en templates die nodig zijn om klinische modellen mee te maken. Vervolgens is het interessant
+om te kijken hoe openEHR daadwerkelijk werkt als CDR.
 
 ## Wat zijn archetypes?
 

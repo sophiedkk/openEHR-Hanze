@@ -15,4 +15,24 @@ Archetype Designer website.
 
 ## Template
 
+### Plannen
 
+### root archetype
+
+### naam
+
+### create
+
+- Lichaamstemperatuur
+- Lichaamsgewicht
+- Lichaamslengte
+- Bloeddruk (boven- en onderdruk)
+- Hartslagfrequentie
+- Bloedsaturatie (SpO₂)
+- Ademhaling (regelmatigheid, diepte, en frequentie)
+
+### content
+
+### exporteren
+
+### metadata

@@ -27,6 +27,7 @@ name: testserver_URL_example
 Voorbeeld van de testserver URL. Een deel is weggehaald: log in op de sandkiste om de URL
 op te halen.
 ```
+
 ## Optie 2: Zelf installeren
 
 Om EHRbase te kunnen gebruiken op je eigen systeem heb je docker nodig. Als je nog geen ervaring hebt
@@ -43,6 +44,6 @@ Nu kun je de containers starten met docker compose:
 docker compose up
 ```
 De server is nu beschikbaar op `http://localhost:8080/ehrbase/`. De instellingen zoals het wachtwoord voor de database 
-server en die van de openEHR server staan in de environment file. Voor nu niet heel belangrijk, maar voor echt gebruik 
-natuurlijk wel.
+server en die van de openEHR server staan in de environment file. Voor nu niet heel belangrijk want we gaan geen authenticatie
+gebruiken, maar voor echt gebruik natuurlijk wel.
 

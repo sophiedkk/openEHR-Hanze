@@ -1,11 +1,17 @@
 # Archetypes
 
-Wat is een archetype en de rol in het datamodel.
+In openEHR is een archetype een specificatie voor het vastleggen van patiëntgegevens volgens 
+het referentiemodel. Archetypes vormen de basis van de openEHR-architectuur en worden samen met clinici en 
+domeindeskundigen geformuleerd. Ze definiëren afzonderlijke klinische concepten inclusief alle relevante 
+data-elementen en worden breed en flexibel opgezet voor maximale interoperabiliteit. openEHR streeft voor
+een maximale dataset en tijdens het maken van templates kunnen bepaalde datavelden worden uitgezet. Archetypes
+worden vastgelegd in de Archetype Definition Language (ADL).
 
 ## Clinical Knowledge Manager
 
-De internationale [Clinical Knowlege Manager](https://ckm.openehr.org/ckm/) bevat alle archetypes die
-zijn vastgesteld door de internationale openEHR community. 
+Het lezen van een ADL template is niet heel fijn. Daarom zijn er gelukkig ook andere manieren om archetypes
+in te zien. De internationale [Clinical Knowlege Manager](https://ckm.openehr.org/ckm/) bevat alle 
+archetypes die zijn vastgesteld door de internationale openEHR community. 
 
 ```{figure} ./figures/ckm.png
 ---
@@ -31,6 +37,9 @@ Het [blood pressure archetype](https://ckm.openehr.org/ckm/archetypes/1013.1.357
 
 ## Archetypes exporteren
 
+Normaliter zou je gewoon alle archetypes kunnen exporteren en daarna kunnen gebruiken. Het inlezen van de 900+
+archetypes duurt echter best lang. Daarom is het voor deze workshop aan te raden om de archetypes die je 
+nodig hebt te downloaden en daarmee verder te werken.
 
 ```{figure} ./figures/bulk_export.png
 ---
@@ -39,5 +48,11 @@ name: bulk_export
 De internationale Clinical Knowledge Manager. 
 ```
 
-Voor nu kun je gewoon alles selecteren en op `Bulk Export` klikken. Alle archetypes zullen in een
-.zip bestand gedownload worden. Met dit bestand gaan we verder in de volgende stap.
+Wanneer je wel van bulk export gebruik wil maken kan je onder het archetype tabblad de `Bulk Export` knop vinden.
+Daarna kan je aanvinken wat je wel en niet nodig hebt. Alle archetypes zullen in een .zip bestand 
+gedownload worden. Met dit bestand (of dus de losse bestanden) gaan we verder in de volgende stap.
+
+```{admonition} Opdracht
+Zoek en download de archetypes die je denkt nodig te hebben in het ADL format. Download ook het archetype voor Encounter. 
+Bewaar de documenten op een plek waar je ze later terug kan vinden.
+```

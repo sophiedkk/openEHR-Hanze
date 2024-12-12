@@ -14,9 +14,16 @@ slides gepresenteerd worden die dezelfde volgorde aanhouden als deze documentati
 | 10 min | Archetypes I   |
 | 10 min | *Pauze* ☕      |
 | 15 min | Archetypes II  |
-| 5 min  | Templates      |
-| 15 min | ADL Designer   |
-| 5 min  | *Pauze* ☕     |
+| ...    | ...            |
 
+
+## Inhoudsopgave
 ```{tableofcontents}
 ```
+
+## Bronnen en leeswerk
+
+- https://openehr.atlassian.net/wiki/spaces/healthmod/overview?homepageId=2949233
+- https://docs.ehrbase.org/
+- https://www.youtube.com/@medblocks
+- https://specifications.openehr.org/releases/ITS-REST/

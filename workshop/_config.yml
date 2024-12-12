@@ -3,7 +3,7 @@
 
 title: openEHR Workshop 2024
 author: Sophie de Klerk
-copyright: "2024"
+copyright: "2024 (CC-BY)"
 logo: logo.svg
 only_build_toc_files: true
 
@@ -23,7 +23,7 @@ bibtex_bibfiles:
 
 # Information about where the book exists on the web
 repository:
-  url: https://github.com/executablebooks/jupyter-book  # Online location of your book
+  url: https://github.com/sophiedkk/openEHR-Hanze  # Online location of your book
   path_to_book: workshop  # Optional path to your book, relative to the repository root
   branch: main  # Which branch of the repository should be used when creating links (optional)
 
@@ -39,4 +39,5 @@ html:
 sphinx:
   config:
     language: nl
-
+  extra_extensions:
+  - sphinx_inline_tabs

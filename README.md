@@ -1,6 +1,6 @@
 # Hanze openEHR workshop
 
-[![Jupyter Book Badge](https://jupyterbook.org/badge.svg)](https://github.com/sophiedkk/openEHR-Hanze)
+[![Jupyter Book Badge](https://jupyterbook.org/badge.svg)](https://sophiedkk.github.io/openEHR-Hanze/intro.html)
 
 Source for the documentation (under workshop) and slides (under slides) for the Hanze openEHR workshop.
 

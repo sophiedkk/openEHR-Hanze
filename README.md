@@ -1,5 +1,7 @@
 # Hanze openEHR workshop
 
+[![Jupyter Book Badge](https://jupyterbook.org/badge.svg)](https://github.com/sophiedkk/openEHR-Hanze)
+
 Source for the documentation (under workshop) and slides (under slides) for the Hanze openEHR workshop.
 
 The goal of this workshop is to get familiar with the base concepts of openEHR and how to interact

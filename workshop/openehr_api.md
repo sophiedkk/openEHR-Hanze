@@ -1,4 +1,4 @@
-# openEHR API
+# REST API gebruiken
 
 ```{figure} ./figures/openehr_block_diagram.svg
 ---

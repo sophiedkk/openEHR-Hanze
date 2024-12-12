@@ -1,4 +1,4 @@
-# Introductie EHRbase
+# EHRBase gebruiken
 
 ## Wat is EHRbase
 

@@ -14,6 +14,7 @@ parts:
     chapters:
       - file: ehrbase_basics
       - file: openehr_api
+      - file: bruno
       - file: upload_template
       - file: create_ehr
       - file: upload_composition

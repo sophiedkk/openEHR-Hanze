@@ -52,6 +52,8 @@ Wanneer je wel van bulk export gebruik wil maken kan je onder het archetype tabb
 Daarna kan je aanvinken wat je wel en niet nodig hebt. Alle archetypes zullen in een .zip bestand 
 gedownload worden. Met dit bestand (of dus de losse bestanden) gaan we verder in de volgende stap.
 
+---
+
 ```{admonition} Opdracht
 Zoek en download de archetypes die je denkt nodig te hebben in het ADL format. Download ook het archetype voor Encounter. 
 Bewaar de documenten op een plek waar je ze later terug kan vinden.

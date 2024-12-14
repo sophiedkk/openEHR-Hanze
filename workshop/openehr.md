@@ -10,6 +10,13 @@ voor de klinische inhoud. Dit stelt zorgprofessionals in staat om domeinspecifie
 afhankelijk te zijn van specifieke software. Dankzij deze aanpak wordt het eenvoudiger om gegevens uit verschillende 
 systemen te integreren, uit te wisselen, en langdurig bruikbare, patiëntgerichte informatie te waarborgen.
 
+```{figure} ./figures/about-openehr-diagram.svg
+---
+name: about-openehr-diagram
+---
+Bron: https://openehr.org/about_us
+```
+
 ## Hoe werkt openEHR?
 
 In de rest van de workshop zullen we uitgebreid ingaan op hoe openEHR precies werkt en hoe we aan de slag kunnen met 
@@ -34,9 +41,10 @@ Een voorbeeld van een tool waarin men archetypes kan maken is de [ADL Designer](
 Deze tool wordt beschikbaar gesteld door Better en OpenEHR International. 
 
 ## Wat zijn templates?
-Templates
-Templates maken
-Templates posten
+- Templates
+- Templates maken
+- Templates posten
 
 ## Hoe wordt data opgeslagen?
-API benoemen
+- API benoemen
+- Composities benoemen

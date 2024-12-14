@@ -6,11 +6,11 @@
    id="Logo"
    x="0px"
    y="0px"
-   viewBox="0 0 322.79999 465.70259"
+   viewBox="0 0 389.13837 401.62574"
    xml:space="preserve"
    sodipodi:docname="logo.svg"
-   width="322.79999"
-   height="465.70258"
+   width="389.13837"
+   height="401.62573"
    inkscape:version="1.4 (e7c3feb100, 2024-10-09)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -25,9 +25,9 @@
    inkscape:pageopacity="0.0"
    inkscape:pagecheckerboard="0"
    inkscape:deskcolor="#d1d1d1"
-   inkscape:zoom="1.407"
-   inkscape:cx="215.70718"
-   inkscape:cy="161.69154"
+   inkscape:zoom="0.99489924"
+   inkscape:cx="213.58947"
+   inkscape:cy="324.15343"
    inkscape:window-width="2560"
    inkscape:window-height="1371"
    inkscape:window-x="0"
@@ -41,15 +41,10 @@
 	.st1{fill:#FFFFFF;}
 	.st2{fill:none;}
 </style>
-<circle
-   class="st2"
-   cx="161.39999"
-   cy="161.39999"
-   r="161.39999"
-   id="circle1" />
+
 <g
    id="g4"
-   transform="matrix(0.78782498,0,0,0.78782498,34.79652,34.245042)"
+   transform="matrix(0.70672615,0,0,0.70672615,80.99829,5.4207644)"
    style="stroke-width:1.26932">
 	<path
    class="st0"
@@ -75,15 +70,23 @@
 
 <text
    xml:space="preserve"
-   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:64px;font-family:'IBM Plex Mono';-inkscape-font-specification:'IBM Plex Mono, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:-0.03px;word-spacing:-0.05px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#666666;stroke-width:0.377953"
-   x="161.481"
-   y="372.90259"
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:57.4118px;font-family:'IBM Plex Mono';-inkscape-font-specification:'IBM Plex Mono, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:-0.0269118px;word-spacing:-0.044853px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#666666;stroke-width:0.339046"
+   x="195.28883"
+   y="313.6163"
    id="text1"><tspan
      sodipodi:role="line"
      id="tspan1"
-     x="161.481"
-     y="372.90259">Workshop</tspan><tspan
+     x="195.28883"
+     y="313.6163"
+     style="stroke-width:0.339046">Workshop</tspan><tspan
      sodipodi:role="line"
-     x="161.466"
-     y="452.90259"
-     id="tspan2">openEHR</tspan></text></svg>
+     x="195.27538"
+     y="385.38104"
+     id="tspan2"
+     style="stroke-width:0.339046">openEHR</tspan></text><rect
+   style="fill:none;stroke-width:0"
+   id="rect1"
+   width="389.13837"
+   height="401.62573"
+   x="0"
+   y="0" /></svg>

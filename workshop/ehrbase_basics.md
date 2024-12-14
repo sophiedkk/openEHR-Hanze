@@ -8,7 +8,7 @@ dat met name wordt onderhouden door [vitagroup](https://www.vitagroup.ag/en/). E
 openEHR server en werkt met het laatste referentiemodel en de laatste versie van de Archetype Definition Language (ADL). 
 De openEHR REST API en de Archetype Query Language om queries te kunnen maken op de database zijn ook beschikbaar. 
 
-## Optie 1: De sandbox
+## Optie 1: De sandbox 🏖️
 
 Verschillende openEHR vendors zoals CODE24 en vitagroup bieden nu een sandbox aan. De EHRbase 
 sandbox van vitagroup is te vinden op [https://sandkiste.ehrbase.org/](https://sandkiste.ehrbase.org/). Om gebruik te
@@ -28,7 +28,7 @@ Voorbeeld van de testserver URL. Een deel is weggehaald: log in op de sandkiste 
 op te halen.
 ```
 
-## Optie 2: Zelf installeren
+## Optie 2: Zelf installeren 👷
 
 Om EHRbase te kunnen gebruiken op je eigen systeem heb je docker nodig. Als je nog geen ervaring hebt
 met docker is het handig om de sandbox te gebruiken. Voor meer informatie over docker en hoe het

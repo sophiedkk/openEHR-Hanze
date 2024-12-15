@@ -49,6 +49,10 @@ Maak een EHR aan. Sla de EHR id op zodat we deze in een latere stap weer kunnen 
 
 ## Bonus: EHR met subject ID
 
+Het is de bedoeling dat we klinische data en demografische data van elkaar scheiden. De eerste optie is om de EHR ID bij
+de demografische data op te slaan zodat een link kan worden gelegd naar de klinische data. De tweede optie is om aan de
+EHR een globally unique identifier (GUID) toe te voegen. Dit kan met dezelfde API en we moeten dan 
+
 ````{tab} Bruno
 ```{figure} ./figures/create-ehr-id-bruno.png
 ---

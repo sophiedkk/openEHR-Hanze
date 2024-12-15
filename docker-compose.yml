@@ -7,7 +7,7 @@ services:
   # EHRBase container. see `.env.ehrbase` for configuration details.
   #
   ehrbase:
-    image: ${EHRBASE_IMAGE:-ehrbase/ehrbase:2.9.0}
+    image: ${EHRBASE_IMAGE:-ehrbase/ehrbase:2.11.0}
     env_file:
       - .env.ehrbase
     environment:

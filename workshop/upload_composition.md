@@ -3,6 +3,7 @@
 ## Compositie maken
 - Cabolabs
 - openEHR SDK
+- VS Code: https://marketplace.visualstudio.com/items?itemName=NedapHealthcare.openehr-adl-lsp
 - MedBlocks
 - EHRBase example
 - EHRScape example

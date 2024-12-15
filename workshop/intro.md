@@ -11,20 +11,22 @@ slides gepresenteerd worden die dezelfde volgorde aanhouden als deze documentati
 
 ## Planning
 
-| Tijd   | Onderwerp       |
-|--------|-----------------|
-| 10 min | Introductie 👋  |
-| 30 min | openEHR         |
-| 10 min | Archetypes I    |
-| 10 min | *Pauze* ☕       |
-| 15 min | Archetypes II   |
-| 30 min | Templates       |
-| 10 min | *Pauze* ☕       |
-| 30 min | openEHR API     |
-| 15 min | Templates & EHR |
-| 10 min | *Pauze* ☕       |
-| 30 min | Composities     |
-| ...    | ...             |
+| Tijd        | Onderwerp              |
+|-------------|------------------------|
+| 10:00-11:00 | Setting the Scene      |
+| 11:15-11:25 | Introductie 👋         |
+| 11:25-12:00 | openEHR                |
+| 12:00-12:30 | Archetypes             |
+| 12:30-13:30 | *Lunch* ☕              |
+| 13:30-14:00 | Sicht data             |
+| 14:00-14:30 | Archetypes & Templates |
+| 14:30-14:45 | *Pauze* ☕              |
+| 14:45-15:30 | EHRBase                |
+| 15:30-15:45 | *Pauze* ☕              |
+| 15:45-16:00 | Templates & EHR        |
+| 16:00-16:30 | Composities            |
+| 16:30-17:00 | Discussie              |
+| ...         | ...                    |
 
 
 ## Inhoudsopgave

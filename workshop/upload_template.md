@@ -72,7 +72,7 @@ of Swagger. Plaats de template vervolgens op de openEHR server door het bericht 
 
 ## Templates bekijken
 
-Als je een 201 Created status terugkreeg bij de vorige opdracht dan staat de template als het goed is geregistreerd in de openEHR
+Als je een `201 Created` status terugkreeg bij de vorige opdracht dan staat de template als het goed is geregistreerd in de openEHR
 server. Om dit te checken kunnen we een specifieke template ophalen, een voorbeeld ophalen, of alle templates bekijken.
 Laten we voor nu alle templates ophalen en kijken of de template ertussen staat:
 

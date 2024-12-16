@@ -2,10 +2,10 @@
 
 Vervolgens moeten we een template maken met de gekozen archetypes. Er zijn op dit moment twee programma's beschikbaar
 waarmee men makkelijk templates kan maken, dat zijn: 
-- Template Designer (Windows)
-- ADL Designer (Web)
+- [Template Designer](https://downloads.oceaninformatics.com//downloads/TemplateDesigner/) (Windows)
+- [Archetype Designer](https://tools.openehr.org/) (Web)
 
-In deze workshop kiezen we voor Archetype Designer die door Better en openEHR International beschikbaar gesteld wordt. 
+In deze workshop kiezen we voor Archetype Designer die door Better en openEHR International beschikbaar wordt gesteld. 
 Hiervoor is helaas wel een account nodig, of men kan inloggen met een van de providers. Ik heb voor de workshop mijn
 GitHub gelinked aan Archetype Designer.
 
@@ -14,6 +14,12 @@ GitHub gelinked aan Archetype Designer.
 name: archetype_designer
 ---
 Archetype Designer website.
+```
+
+---
+
+```{admonition} Opdracht
+Maak een account op Archetype Designer en log in.
 ```
 
 ## Repository maken
@@ -33,6 +39,12 @@ name: template-create-repo
 De nieuwe repository voor de workshop.
 ```
 
+---
+
+```{admonition} Opdracht
+Maak een eigen repository in Archetype Designer.
+```
+
 ## Repository vullen
 
 Onze repository is op dit moment nog leeg. Om Archetypes toe te voegen kan men in de bovenste balk op `Import` drukken
@@ -47,9 +59,13 @@ name: template-import-adl
 Het import scherm om archetypes toe te voegen aan de repository in Archetype Designer.
 ```
 
-## Template
+---
 
-### Stap 0: Plannen
+```{admonition} Opdracht
+Importeer alle archetypes die je wil gebruiken tijdens de workshop of alle archetypes uit de bulk export.
+```
+
+## Template
 
 ### Stap 1: Root archetype
 
@@ -58,6 +74,12 @@ kiezen voor de standaard optie om een Compositie te gebruiken. Hiervoor gebruike
 Selecteer deze compositie als Root Archetype Id. Vervolgens moeten we een naam kiezen, deze moet uniek zijn voor de
 openEHR server. Als je de sandbox gebruikt moet je dus zorgen dat je een unieke naam gebruikt door wat extra's toe 
 te voegen. Ik zal de naam `workshop-example` gebruiken voor het template.
+
+---
+
+```{admonition} Opdracht
+Maak een nieuwe template en geef deze een unieke naam (bijv. workshop-example-sdk).
+```
 
 ### Stap 2: Toevoegen archetypes
 
@@ -87,18 +109,32 @@ Op basis van de casus hebben we een archetype nodig voor:
 - Bloedsaturatie (SpO₂)
 - Ademhaling (regelmatigheid, diepte, en frequentie)
 
+---
+
+```{admonition} Opdracht
+Voeg alle archetypes toe die nodig zijn voor de casus.
+```
+
 ### Stap 3: Selecteren velden
 
 Zoals eerder gezegd gaat openEHR uit van een maximale dataset. Het is nu aan ons om deze te reduceren naar de klinisch
 relevante set data die nodig is. De eerste stap is meestal om alle velden uit te schakelen. Hiervoor kan men de 
 `Prohibit optional elements` knop gebruiken (sneeuwvlok symbool). Voor sommige velden moet de frequentie ook worden 
-aangepast. Door te klikken op het gele knopje in dat veld kunnen de occurences naar nul worden gezet.
+aangepast. Door te klikken op het gele knopje in dat veld kunnen de occurences naar nul worden gezet en door nog een 
+keer te drukken wordt de waarde weer teruggezet. 
 
 ```{figure} ./figures/template-select-fields.png
 ---
 name: template-select-fields
 ---
 Het selecteren van de velden die wel en niet nodig zijn.
+```
+
+---
+
+```{admonition} Opdracht
+Zet alle velden die niet nodig zijn uit. Zet vervolgens de velden die wel nodig zijn aan. Pas de frequentie van velden
+aan waar nodig.
 ```
 
 ### Stap 4: Aanpassen velden
@@ -115,11 +151,24 @@ width: 30%
 Het selecteren van de velden die wel en niet nodig zijn.
 ```
 
+---
+
+```{admonition} Opdracht
+Pas de velden aan waar nodig. Stel de eenheden zo in dat deze alleen met gangbare eenheden werken. Stel eventueel 
+minima en maxima in.
+```
+
 ### Stap 5: Exporteren
 
 Wanneer we tevreden zijn kunnen we helemaal bovenin op `Save` drukken en daarna op `Export`. Het is mogelijk om in 
 verschillende formats te exporteren. Voor nu is het `OPT` format het belangrijkste, want deze wordt ondersteund door
 EHRBase om templates mee te registreren.
+
+---
+
+```{admonition} Opdracht
+Exporteer de template in het OPT format en plaats deze op een plek waar je het later makkelijk kan terugvinden.
+```
 
 ### Metadata
 

@@ -25,7 +25,7 @@ slides gepresenteerd worden die dezelfde volgorde aanhouden als deze documentati
 | 15:30-15:45 | *Pauze* ☕                     |
 | 15:45-16:00 | Templates & EHR               |
 | 16:00-16:30 | Composities                   |
-| 16:30-17:00 | Discussie 🚀                    |
+| 16:30-17:00 | Discussie 🚀                  |
 | ...         | ...                           |
 
 

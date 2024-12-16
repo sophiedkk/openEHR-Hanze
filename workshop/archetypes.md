@@ -37,6 +37,13 @@ name: blood_pressure
 Het [blood pressure archetype](https://ckm.openehr.org/ckm/archetypes/1013.1.3574/mindmap) in de Clinical Knowledge Manager in de Mind Map view.
 ```
 
+---
+
+```{admonition} Opdracht
+Open de Clinical Knowledge Manager in een webbrowser en probeer wat archetypes te bekijken. Zoek het archetype voor
+Apgar score, Laboratory test result, en Vaccination list.
+```
+
 ## Archetypes exporteren
 
 Als we het juiste archetype hebben gevonden kunnen we deze exporteren met de download knop. Om zeker te weten dat de 

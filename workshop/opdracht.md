@@ -11,7 +11,7 @@ template. 6) We zullen de compositie ook weer ophalen om aan te tonen dat deze i
 ---
 name: workflow
 ---
-Stappen die we gaan nemen in de workshop.
+De stappen die we gaan nemen in de workshop.
 ```
 
 ## De casus

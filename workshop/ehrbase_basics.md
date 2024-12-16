@@ -47,3 +47,8 @@ De server is nu beschikbaar op `http://localhost:8080/ehrbase/`. De instellingen
 server en die van de openEHR server staan in de environment file. Voor nu niet heel belangrijk want we gaan geen authenticatie
 gebruiken, maar voor echt gebruik natuurlijk wel.
 
+---
+
+```{admonition} Opdracht
+Maak een account op de sandbox óf start zelf een EHRBase instantie met docker.
+```

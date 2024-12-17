@@ -12,10 +12,13 @@ te veel werk voor nu. Er zijn verschillende tools die voorbeelden kunnen generer
 - EHRScape example
 - ...
 
-De EHRBase API kan ook een voorbeeld compositie genereren uit een template. Deze API ondersteund op dit moment echter alleen
-XML `/definition/template/adl1.4/{template_id}/example`. Op zich is XML een prima format, maar het is niet heel fijn om met 
-de hand aan te passen. Voor deze workshop zullen we daarom kiezen uit het FLAT format. EHRBase ondersteund dit format op 
-dit moment alleen in de (deprecated) EhrScape API `/rest/ecis/v1/template/{templateId}/example`.
+De EHRBase API kan ook een voorbeeld compositie genereren uit een template. Deze API ondersteund op dit moment 
+echter in Swagger alleen XML `/definition/template/adl1.4/{template_id}/example`. Op zich is XML een prima format, maar
+het is niet heel fijn om met de hand aan te passen. Voor deze workshop zullen we daarom kiezen uit het FLAT format. 
+EHRBase ondersteund dit format in Swagger op dit moment alleen in de (deprecated) EhrScape API `/rest/ecis/v1/template/
+{templateId}/example`. In een API client is het mogelijk om de header aan te passen en dan kan de openEHR api wel 
+gebruik maken van het FLAT format. Hiervoor moet `accept: application/openehr.wt.flat.schema+json` worden meegegeven 
+in de header.
 
 ````{tab} Bruno
 ```{figure} ./figures/template-example-bruno.png
@@ -60,17 +63,18 @@ voor de casus. Pas de waarden in de datavelden aan voor een realistisch voorbeel
 
 ## Compositie plaatsen
 
-Het plaatsen van een compositie kan via de `/rest/openehr/v1/ehr/{ehr_id}/composition` enpoint. Een compositie wordt altijd
-geplaatst in een EHR, dus als onderdeel van de endpoint moet men een EHR ID meegeven. Ben je de EHR ID kwijt? Dan kan je 
-deze opzoeken door toe zoeken met `subject_id` en `subject_namespace`. Als je deze niet hebt, ben je aangewezen op de 
-Query API. De EhrScape API geeft de compositie ID terug via de URL in de respons.
+Het plaatsen van een compositie kan via de `/rest/openehr/v1/ehr/{ehr_id}/composition` endpoint. Een compositie 
+wordt altijd geplaatst in een EHR, dus als onderdeel van de endpoint moet men een EHR ID meegeven. Ben je de EHR ID 
+kwijt? Dan kan je deze opzoeken door toe zoeken met `subject_id` en `subject_namespace`. Als je deze niet hebt, ben 
+je aangewezen op de Query API. De EhrScape API geeft de compositie ID terug via de URL in de respons. In Swagger kan 
+men geen FLAT composities plaatsen. In een API client wel, en hiervoor moet `format=FLAT` meegegeven worden in de 
 
 ````{tab} Bruno
 ```{figure} ./figures/composition-post-bruno.png
 ---
 name: composition-post-bruno
 ---
-Composities uploaden in Bruno.
+Composities uploaden in Bruno via de openEHR API.
 ```
 ````
 ````{tab} Swagger
@@ -78,7 +82,7 @@ Composities uploaden in Bruno.
 ---
 name: composition-post-swagger
 ---
-TComposities uploaden in de Swagger UI.
+Composities uploaden in de Swagger UI via de EhrScape API.
 ```
 ````
 ````{tab} Python
@@ -86,14 +90,17 @@ TComposities uploaden in de Swagger UI.
 import json
 import requests
 
-url = "http://localhost:8080/ehrbase/rest/ecis/v1/composition"
+ehr_id = ""
+url = f"http://localhost:8080/ehrbase/rest/openehr/v1/ehr/{ehr_id}/composition"
 
-querystring = {"format":"FLAT", "templateId":"...", "ehrId":"..."}
+querystring = {"templateId":"workshop-example","format":"FLAT"}
 
 with open('composition.json', 'r') as file:
     payload = json.load(file)
 
-response = requests.post(url, json=payload, params=querystring)
+headers = {"content-type": "application/json"}
+
+response = requests.post(url, json=payload, headers=headers, params=querystring)
 
 print(response.json())
 ```

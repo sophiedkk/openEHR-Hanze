@@ -29,6 +29,7 @@ klik daarna op `New Request`.
 ```{figure} ./figures/bruno-new-request.png
 ---
 name: bruno-new-request
+width: 50%
 ---
 Een nieuwe request maken in Bruno.
 ```
@@ -39,6 +40,7 @@ server in opslaan. Dit kan door op de knop rechts bovenin te klikken:
 ```{figure} ./figures/bruno-environments.png
 ---
 name: bruno-new-environments
+width: 80%
 ---
 Een nieuwe environment maken in Bruno. Handig om bijv. de server URL in op te slaan!
 ```

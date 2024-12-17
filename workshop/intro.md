@@ -9,6 +9,13 @@ de data weer op te halen.
 Deze website dient als handleiding en als naslagwerk voor de workshop. Tijdens de workshops zullen
 slides gepresenteerd worden die dezelfde volgorde aanhouden als deze documentatie.
 
+
+```{image} ./figures/logo_masterclassopenehr_eforze-supplied.png
+:alt: logo openEHR masterclass
+:width: 200px
+:align: center
+```
+
 ## Planning
 
 | Tijd        | Onderwerp                     |

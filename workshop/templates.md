@@ -134,7 +134,8 @@ Het selecteren van de velden die wel en niet nodig zijn.
 
 ```{admonition} Opdracht
 Zet alle velden die niet nodig zijn uit. Zet vervolgens de velden die wel nodig zijn aan. Pas de frequentie van velden
-aan waar nodig.
+aan waar nodig. Let op: als alle velden onder een top level veld (hier bijv. Birth) uitstaan moet je dat veld ook nog
+handmatig uitzetten.
 ```
 
 ### Stap 4: Aanpassen velden

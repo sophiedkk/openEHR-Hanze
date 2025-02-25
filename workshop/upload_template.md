@@ -74,7 +74,8 @@ of Swagger. Plaats de template vervolgens op de openEHR server door het bericht 
 
 Als je een `201 Created` status terugkreeg bij de vorige opdracht dan staat de template als het goed is geregistreerd in de openEHR
 server. Om dit te checken kunnen we een specifieke template ophalen, een voorbeeld ophalen, of alle templates bekijken.
-Laten we voor nu alle templates ophalen en kijken of de template ertussen staat:
+Laten we voor nu alle templates ophalen en kijken of de template ertussen staat. Stuur een GET request naar 
+`{{ehrbase_url}}/rest/openehr/v1/definition/template/adl1.4`.
 
 ````{tab} Bruno
 ```{figure} ./figures/list-templates-bruno.png

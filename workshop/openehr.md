@@ -40,9 +40,8 @@ set te hebben die iedereen kan gebruiken - anders verlies je de interoperabilite
 archetypes maken, maar we gaan er wel een aantal gebruiken uit de CKM. In Nederland hebben we hiervoor nog geen strikt 
 governance model voor opgericht, maar dit zal in de toekomst wel moeten.
 
-Een voorbeeld van een tool waarin men archetypes kan maken is de [Archetype Designer](https://tools.openehr.
-org/designer/). Deze tool wordt beschikbaar gesteld door Better en OpenEHR International. Deze tool zullen we in de 
-workshop ook gebruiken.
+Een voorbeeld van een tool waarin men archetypes kan maken is de [Archetype Designer](https://tools.openehr.org/designer/). 
+Deze tool wordt beschikbaar gesteld door Better en OpenEHR International. Deze tool zullen we in de workshop ook gebruiken.
 
 ## Wat zijn templates?
 

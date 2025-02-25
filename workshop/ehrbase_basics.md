@@ -34,8 +34,9 @@ Om EHRbase te kunnen gebruiken op je eigen systeem heb je docker nodig. Als je n
 met docker is het handig om de sandbox te gebruiken. Voor meer informatie over docker en hoe het
 te installeren, kijk op de [website](https://docs.docker.com/).
 
-Download eerst de [docker compose file](../docker-compose.yml) en de [environment file](../.env.ehrbase). De bestanden 
-in deze workshop zijn iets aangepast ten opzichte van de EHRbase Github versie om zeker te weten dat we 
+Download eerst de [docker compose file](../docker-compose.yml) en de [environment file](../.env.ehrbase). Let op dat 
+de env file als `.env.ehrbase` wordt opgeslagen (sommige systemen verwijderen de eerste punt). De 
+bestanden in deze workshop zijn iets aangepast ten opzichte van de EHRbase Github versie om zeker te weten dat we 
 een versie hebben die werkt voor de workshop. De laatste versie kan je altijd vinden via de 
 [documentatie](https://docs.ehrbase.org/) van EHRbase.
 
